@@ -9,7 +9,7 @@ router.post('/post',  createPost )
 
 router.put('/post/:id', editingPost)
 
-router.delete('/post', deletingPost)
+router.delete('/post/:id', deletingPost)
 
 router.get('/post/:id', gettingPost )
 
